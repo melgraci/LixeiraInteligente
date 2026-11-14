@@ -20,8 +20,13 @@ const float DISTANCIA_CHEIA = 4.44;
 // -------------------------------
 // WIFI
 // -------------------------------
+<<<<<<< HEAD
 const char* WIFI_SSID = "iPhone de Melissa";
 const char* WIFI_PASSWORD = " ";
+=======
+const char* WIFI_SSID = "";
+const char* WIFI_PASSWORD = "";
+>>>>>>> e1f2f7c (Remove credenciais expostas)
 
 // -------------------------------
 // HIVEMQ CLOUD
@@ -29,8 +34,8 @@ const char* WIFI_PASSWORD = " ";
 const char* MQTT_HOST = "849791f6db184775831e56d079e429f6.s1.eu.hivemq.cloud";
 const int MQTT_PORT = 8883;
 
-const char* MQTT_USER = "pinkbin_esp32";
-const char* MQTT_PASSWORD = " ";
+const char* MQTT_USER = "";
+const char* MQTT_PASSWORD = "";
 
 // Topico para envio dos dados
 const char* MQTT_TOPIC = "pinkbin/dados";
